@@ -7,7 +7,7 @@
 
 ## Introduction
 
-You've been hired to enhance security at a major US bank amidst the breach in their database. As a security expert you know to that offering users randomly generated passwords will make it hardly for pesky hackers to brute force the attack. This app must use command-line interface and be flexible to be used for passwords of different length and for various number of passwords.
+You've been hired to enhance security at a major US bank amidst the breach in their database. As a security expert you know that offering users randomly generated passwords will make it hard for pesky hackers to brute force the attack. This app must use this command-line interface and be flexible to be used for passwords of different length and for various numbers of passwords.
 
 In this lab, you will pass and access command-line arguments to implement a CLI app which generates random passwords.
 
@@ -27,7 +27,7 @@ Knowing how to pass and access command-line arguments is important in building C
 
 ### Extra Info
 
-In the tests, you'll see `child_process`. It's a super easy and cool core module which allows you to start any other programs/processes from within your Node app. We use it in the tests to verify that your app is actually taking in the CLI argument and not using some hard-coded values.
+In the tests, you'll see `child_process`. It's a super easy core module which allows you to start any other programs/processes from within your Node app. We use it in the tests to verify that your app is actually taking in the CLI argument and not using some hard-coded values.
 To use `child_proccess`, all you do is pass parameters to its `spawn()` method:
 
 ```js
