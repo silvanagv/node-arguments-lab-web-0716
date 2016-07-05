@@ -28,3 +28,4 @@ for (var i = 1; i <=number; i++) {
 }
 
 process.exit(0)
+
