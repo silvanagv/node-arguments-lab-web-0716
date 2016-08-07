@@ -19,7 +19,7 @@ Knowing how to pass and access command-line arguments is important in building C
 
 1. Implement a Node script `password.js` which takes 2 CLI arguments and prints random passwords based on the arguments.
 1. Use two arguments: length (first) and a number of passwords (second) to print, so that `node password 2 2` and `node password 10 3` are valid commands. The former will print 2 passwords with the length of 2 and the latter 3 passwords with the length of 10.
-2. Optional: implement `generatePassword()` function in the `password.js` to get random passwords. The name of the function doesn't matter. You don't even have to have a separate function, you can just implement the code in the file without a function. If it's too hard, look up the implementation online. The password generation is not the focus of this lab, so we won't test your passwords on strength or randomness. Just do you best not to hard code them. ;)
+2. Optional: implement `generatePassword()` function in the `password.js` to get random passwords. The name of the function doesn't matter. You don't even have to have a separate function, you can just implement the code in the file without a function. If it's too hard, look up the implementation online. The password generation is not the focus of this lab, so we won't test your passwords on strength or randomness. Just do your best not to hard code them. ;)
 3. Optional: Output error messages when the type of CLI arguments is wrong or when there's only 1 argument instead of 2.
 3. Finish program with `process.exit(0)`
 1. Run `npm test` to test
@@ -51,3 +51,5 @@ passwordAppProcess.stdout.on('data', (data) => {
 * [JavaScript password generator on Stackoverflow](http://stackoverflow.com/questions/1497481/javascript-password-generator)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/node-arguments-lab' title='node-arguments-lab'>node-arguments-lab</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/node-arguments-lab'>Node Arguments Lab</a> on Learn.co and start learning to code for free.</p>
